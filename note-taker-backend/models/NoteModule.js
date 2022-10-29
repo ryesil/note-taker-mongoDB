@@ -1,0 +1,10 @@
+const mongoose=require("mongooose");
+const noteSchema={
+    title:String,
+    content:String
+}
+
+const Note=mongoose.model("Note",noteSchema);
+
+
+module.export=Note;

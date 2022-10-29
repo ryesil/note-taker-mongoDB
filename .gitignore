@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/note-taker-backend/node_modules
+/note-taker-frontend/node_modules
+/note-taker-frontend/.pnp
+/note-taker-frontend.pnp.js
+
+# testing
+/note-taker-frontend/coverage
+
+# production
+/note-taker-frontend/build
+
+# misc
+/note-taker-frontend.DS_Store
+/note-taker-frontend.env.local
+/note-taker-frontend.env.development.local
+/note-taker-frontend.env.test.local
+/note-taker-frontend.env.production.local
+
+/note-taker-frontendnpm-debug.log*
+/note-taker-frontendyarn-debug.log*
+/note-taker-frontendyarn-error.log*
+#end of line
